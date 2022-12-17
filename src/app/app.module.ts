@@ -13,6 +13,7 @@ import { PasswordResetComponent } from './components/password-reset/password-res
 import { ProductComponent } from './components/product/product.component';
 import { ProfileComponent } from './components/profile/profile.component';
 import { SignupComponent } from './components/signup/signup.component';
+import { WatchlistComponent } from './components/watchlist/watchlist.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { SignupComponent } from './components/signup/signup.component';
     PasswordResetComponent,
     ProductComponent,
     ProfileComponent,
-    SignupComponent
+    SignupComponent,
+    WatchlistComponent
   ],
   imports: [
     BrowserModule,
