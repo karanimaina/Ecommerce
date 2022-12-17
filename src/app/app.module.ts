@@ -8,6 +8,8 @@ import { NavigationComponent } from './components/navigation/navigation.componen
 import { CartComponent } from './components/cart/cart.component';
 import { LoginComponent } from './components/login/login.component';
 import { OrderDetailsComponent } from './components/order-details/order-details.component';
+import { OrderComponent } from './components/order/order.component';
+import { PasswordResetComponent } from './components/password-reset/password-reset.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +18,9 @@ import { OrderDetailsComponent } from './components/order-details/order-details.
     NavigationComponent,
     CartComponent,
     LoginComponent,
-    OrderDetailsComponent
+    OrderDetailsComponent,
+    OrderComponent,
+    PasswordResetComponent
   ],
   imports: [
     BrowserModule,
