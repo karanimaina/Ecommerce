@@ -10,6 +10,7 @@ import { LoginComponent } from './components/login/login.component';
 import { OrderDetailsComponent } from './components/order-details/order-details.component';
 import { OrderComponent } from './components/order/order.component';
 import { PasswordResetComponent } from './components/password-reset/password-reset.component';
+import { ProductComponent } from './components/product/product.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { PasswordResetComponent } from './components/password-reset/password-res
     LoginComponent,
     OrderDetailsComponent,
     OrderComponent,
-    PasswordResetComponent
+    PasswordResetComponent,
+    ProductComponent
   ],
   imports: [
     BrowserModule,
